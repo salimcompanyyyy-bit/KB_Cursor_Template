@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+reports/*
+!reports/.gitkeep
+.git_commit_msg*.txt
