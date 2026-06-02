@@ -61,7 +61,11 @@ py -3 tools/export_commits_xlsx.py --since 2026-06-01 --until 2026-06-02
 
 ## Новый проект из шаблона
 
-1. **Клонировать или скопировать** этот репозиторий в новую папку (не bootstrap'ить материнский `KB_Шаблон` на GitHub).
+1. **Клонировать или скопировать** репозиторий шаблона в новую папку (не bootstrap'ить материнский `KB_Шаблон` на GitHub):
+
+   ```powershell
+   git clone https://github.com/salimcompanyyyy-bit/KB_Cursor_Template.git KB_MyApp
+   ```
 2. **Cursor → Open Folder** → копия.
 3. В чате одна фраза, например: **«Создай новый проект KB_MyApp»**.
 4. Агент задаст **Ask Question** (имя, путь, public/private GitHub) и запустит `tools/bootstrap_project.py`.
