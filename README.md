@@ -1,7 +1,8 @@
 # KB_Шаблон
 
 **Проект:** `C:\Users\Kawa\Desktop\Кб\KB_Шаблон`  
-**Статус:** настроен и работает (агент как в KB_MIB_PARSER).
+**Статус:** настроен и работает (агент как в KB_MIB_PARSER).  
+**Шпаргалка:** [`ШПАРГАЛКА.md`](ШПАРГАЛКА.md) — шаблон на GitHub, копия, новый проект, команды.
 
 ## Как пользоваться
 
@@ -71,7 +72,7 @@ py -3 tools/export_commits_xlsx.py --since 2026-06-01 --until 2026-06-02
 4. Агент задаст **Ask Question** (имя, путь, public/private GitHub) и запустит `tools/bootstrap_project.py`.
 5. После bootstrap — **переименовать папку** на диске, если Cursor ещё открыт со старым путём.
 
-Подробности: [`context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md`](context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md), rule [`.cursor/rules/project-bootstrap.mdc`](.cursor/rules/project-bootstrap.mdc).
+Подробности: [`ШПАРГАЛКА.md`](ШПАРГАЛКА.md), [`context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md`](context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md), rule [`.cursor/rules/project-bootstrap.mdc`](.cursor/rules/project-bootstrap.mdc).
 
 ## Проверка
 
