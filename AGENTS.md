@@ -42,3 +42,7 @@ Cursor подхватывает дополнительно правила из [
 Результат: `reports/Коммиты_YYYY_MM_DD.xlsx`. Перед первым запуском: `pip install -r requirements.txt`.
 
 **Context:** только файлы в `context/` **этого** проекта. Не подтягивать историю из KB_MIB_PARSER.
+
+## Bootstrap нового проекта (копия шаблона)
+
+Если пользователь в **копии** шаблона просит создать новый проект / переименовать / bootstrap — следовать [`.cursor/rules/project-bootstrap.mdc`](.cursor/rules/project-bootstrap.mdc) и [`context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md`](context/ИНСТРУКЦИЯ_НОВЫЙ_ПРОЕКТ.md). **Не** bootstrap'ить материнский `KB_Шаблон`.
