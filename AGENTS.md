@@ -24,4 +24,6 @@
 - **Push** — только по явной просьбе
 - **Минимальный дифф**, язык — **русский**
 
-Источник правды: код + `КОНТЕКСТ_АГЕНТА.md`. Домен проекта — [`.cursor/rules/project-domain.mdc`](.cursor/rules/project-domain.mdc).
+Источник правды: код + `КОНТЕКСТ_АГЕНТА.md`. Домен — [`.cursor/rules/project-domain.mdc`](.cursor/rules/project-domain.mdc).
+
+**Context:** только файлы в `context/` **этого** проекта. Не подтягивать историю из KB_MIB_PARSER.
